@@ -1,0 +1,67 @@
+body{
+     background-image: url("background.jpg");
+}
+h1{
+     border: 4px dotted rgb(15, 153, 191);
+     width: 30%;
+     height: 70px;
+     background-color: rgb(240, 75, 75);
+     color: cyan;
+     box-shadow: 20px 20px 50px 10px rgb(29, 185, 190) inset;
+     padding: 13px;
+}
+#info,#playG {
+     transition-duration: 0.4s;
+     height: 40px;
+     width: 105px;
+     font-size: 18px;
+     background-color: rgb(69, 179, 22);
+     color: rgb(255, 238, 0);
+   }
+   
+   #info:hover {
+     background-color: #a21794; /* Green */
+     color: white;
+   }
+
+   #playG:hover {
+     background-color: #1f96d6; /* Green */
+     color: white;
+   }
+
+.instruction_image{
+  display: inline-block;
+  width: 45%;
+}
+.modal-content{
+  width: 900px;
+  height: 600px;
+}
+
+#status{
+  color: rgb(255, 0, 0);
+  font-size: 40px;
+  background-color: aquamarine;
+  width: max-content;
+}
+
+img{
+  border: double 2px aqua;
+  border-radius: 20px;
+  width: 250px;
+  height: 200px;
+}
+
+h3{
+  background-color: cyan;
+  font-size:35px ;
+  width: 250px;
+  border-radius: 40px;
+}
+
+video{
+  background-image: url("game_console.png");
+  background-size: cover;
+  background-position: center;
+  padding: 30px;
+}
